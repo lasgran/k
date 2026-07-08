@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Decorative Red Ring (Sushi Plate Accent) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- Plate Center (Soft Sand White) -->
+    <path
+        android:fillColor="#FAF9F6"
+        android:pathData="M54,54m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0" />
+
+    <!-- Sushi Nori (Seaweed Black Border) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+
+    <!-- Sushi Shari (Rice Inner White Ring) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-17,0a17,17 0,1 1,34 0a17,17 0,1 1,-34 0" />
+
+    <!-- Salmon core (Crimson Center) -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,54m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+
+    <!-- Avocado/Cucumber Accent (Green wedge) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,54 M47,47 L51,47 A10,10 0 0,1 54,44 L54,50 Z" />
+
+    <!-- Chopstick 1 (Bamboo Gold line) -->
+    <path
+        android:strokeColor="#FBC02D"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,30 L84,90" />
+
+    <!-- Chopstick 2 (Bamboo Gold line, crossed) -->
+    <path
+        android:strokeColor="#F5B041"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M18,36 L78,96" />
+</vector>
